@@ -15,7 +15,7 @@ from app.services.ollama import ollama_service
 from app.services.z3_engine import verify_scheme
 
 settings = get_settings()
-logger = logging.getLogger("esire.matching")
+logger = logging.getLogger("PAANGBA.matching")
 
 STATUS_LABELS = {
     "verified_eligible": "Verified Eligible",

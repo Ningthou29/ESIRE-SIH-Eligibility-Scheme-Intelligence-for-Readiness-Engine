@@ -1,6 +1,6 @@
-# ESIRE — Eligibility & Scheme Intelligence for Readiness Engine
+# PAANGBA — Eligibility & Scheme Intelligence for Readiness Engine
 
-**ESIRE** is an AI-powered platform designed to help people discover relevant government schemes, understand eligibility requirements, and determine their readiness to apply.
+**PAANGBA** is an AI-powered platform designed to help people discover relevant government schemes, understand eligibility requirements, and determine their readiness to apply.
 
 It combines **LLM-based profile understanding, personalized scheme matching, document readiness, multilingual accessibility, knowledge graphs, and rule-based eligibility verification** into a single platform.
 
@@ -8,7 +8,7 @@ It combines **LLM-based profile understanding, personalized scheme matching, doc
 
 ---
 
-## 🌟 What is ESIRE?
+## 🌟 What is PAANGBA?
 
 Finding the right government scheme can be difficult.
 
@@ -21,7 +21,7 @@ Users may have to:
 * Deal with language barriers
 * Search across multiple sources
 
-**ESIRE aims to simplify this process by bringing scheme discovery, profile analysis, eligibility, and document readiness together in one platform.**
+**PAANGBA aims to simplify this process by bringing scheme discovery, profile analysis, eligibility, and document readiness together in one platform.**
 
 ### Core Workflow
 
@@ -77,7 +77,7 @@ The interface is designed to support multiple languages, with the current protot
 
 ## 🚀 Landing Page
 
-The landing page introduces ESIRE and its purpose of simplifying access to government schemes.
+The landing page introduces PAANGBA and its purpose of simplifying access to government schemes.
 
 ![Landing Page](images/LandUpPage.png)
 
@@ -87,7 +87,7 @@ The landing page introduces ESIRE and its purpose of simplifying access to gover
 
 ## Login
 
-Users can securely access their ESIRE account through the login interface.
+Users can securely access their PAANGBA account through the login interface.
 
 ![Login Page](images/LoginPage.png)
 
@@ -109,7 +109,7 @@ The registration flow is designed to collect the information required for person
 
 # 📊 Dashboard
 
-The dashboard provides users with a centralized view of their ESIRE experience, including scheme discovery, profile information, documents, and other platform functionality.
+The dashboard provides users with a centralized view of their PAANGBA experience, including scheme discovery, profile information, documents, and other platform functionality.
 
 ![Dashboard](images/Multilingual%20Dashboard.png)
 
@@ -117,7 +117,7 @@ The dashboard provides users with a centralized view of their ESIRE experience, 
 
 # 👤 Profile & AI-Based Understanding
 
-ESIRE is designed to allow users to provide information about themselves in a natural way.
+PAANGBA is designed to allow users to provide information about themselves in a natural way.
 
 The AI layer can process information such as:
 
@@ -159,7 +159,7 @@ The resulting matching information can help users understand why a scheme may be
 
 # 📄 Document Readiness
 
-ESIRE is designed to consider the documents required by individual schemes.
+PAANGBA is designed to consider the documents required by individual schemes.
 
 The document system can track:
 
@@ -184,7 +184,7 @@ Users can manage application preferences and platform settings from a dedicated 
 
 # 🧠 AI & Recommendation System
 
-ESIRE follows a **neuro-symbolic approach**, combining AI-based understanding with deterministic verification.
+PAANGBA follows a **neuro-symbolic approach**, combining AI-based understanding with deterministic verification.
 
 ### LLM Intelligence
 
@@ -357,7 +357,7 @@ This allows schemes, eligibility conditions, documents, and related entities to 
 # 📁 Project Structure
 
 ```text
-ESIRE/
+PAANGBA/
 │
 ├── Backend/
 │   ├── app/
@@ -450,9 +450,9 @@ Install:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/ayushkr0809/ESIRE-SIH-Eligibility-Scheme-Intelligence-for-Readiness-Engine.git
+git clone https://github.com/ayushkr0809/PAANGBA-SIH-Eligibility-Scheme-Intelligence-for-Readiness-Engine.git
 
-cd ESIRE-SIH-Eligibility-Scheme-Intelligence-for-Readiness-Engine
+cd PAANGBA-SIH-Eligibility-Scheme-Intelligence-for-Readiness-Engine
 ```
 
 ---
@@ -601,7 +601,7 @@ Use `.env.example` as a template for local configuration.
 
 # 🎯 Project Goal
 
-ESIRE aims to make government schemes **easier to discover, understand, and prepare for**.
+PAANGBA aims to make government schemes **easier to discover, understand, and prepare for**.
 
 The platform brings together:
 
@@ -625,7 +625,7 @@ into a single platform designed around the user's profile and requirements.
 
 # 👥 Team
 
-ESIRE is being developed collaboratively as part of the **Smart India Hackathon (SIH)**.
+PAANGBA is being developed collaboratively as part of the **Smart India Hackathon (SIH)**.
 
 Team members and contributors will be documented as the project progresses.
 
@@ -633,7 +633,7 @@ Team members and contributors will be documented as the project progresses.
 
 ## 📌 Status
 
-**ESIRE is currently under active development for Smart India Hackathon (SIH).**
+**PAANGBA is currently under active development for Smart India Hackathon (SIH).**
 
 The project is evolving from a functional frontend prototype into an integrated platform combining:
 

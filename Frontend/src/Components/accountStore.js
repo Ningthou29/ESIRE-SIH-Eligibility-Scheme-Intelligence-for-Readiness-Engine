@@ -3,7 +3,7 @@
 // and the Profile page can each update their own piece without wiping out
 // the others.
 
-const ACCOUNT_KEY = "esire_account";
+const ACCOUNT_KEY = "PAANGBA_account";
 
 export function saveAccount(data) {
   const merged = { ...(loadAccount() || {}), ...data };

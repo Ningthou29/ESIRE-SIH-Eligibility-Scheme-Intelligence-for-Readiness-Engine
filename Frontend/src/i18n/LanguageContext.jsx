@@ -15,7 +15,7 @@ import {
 
 import { translate } from "./translations";
 
-const STORAGE_KEY = "esire_language";
+const STORAGE_KEY = "PAANGBA_language";
 
 const LanguageContext = createContext(null);
 

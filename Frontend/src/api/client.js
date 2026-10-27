@@ -1,4 +1,4 @@
-const TOKEN_KEY = "esire_token";
+const TOKEN_KEY = "PAANGBA_token";
 
 export function getToken() {
   return localStorage.getItem(TOKEN_KEY);
@@ -16,7 +16,7 @@ async function request(path, options = {}) {
   if (options.body && !(options.body instanceof FormData) && !headers["Content-Type"]) {
     headers["Content-Type"] = "application/json";
   }
-  const language = localStorage.getItem("esire_language");
+  const language = localStorage.getItem("PAANGBA_language");
   if (language) headers["Accept-Language"] = language;
 
   const response = await fetch(path, { ...options, headers });

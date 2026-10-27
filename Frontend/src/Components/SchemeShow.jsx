@@ -7,8 +7,8 @@ const SchemeShow=(schemes)=>{
         <>
             <header>
                 <div className="sidebar-logo">
-                    <h1>ESIRE</h1>
-                    <p>Entrepreneur Scheme Intelligence & Readiness Engine</p>
+                    <h1>PAANGBA</h1>
+                    <p>Eligibility Scheme Intelligence & Readiness Engine</p>
                 </div>
 
             </header>

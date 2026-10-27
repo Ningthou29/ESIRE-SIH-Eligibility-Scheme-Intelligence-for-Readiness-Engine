@@ -9,7 +9,7 @@ from app.services.catalog import seed_catalog
 
 settings = get_settings()
 
-app = FastAPI(title="ESIRE API", version="0.1.0")
+app = FastAPI(title="PAANGBA API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origin_list,

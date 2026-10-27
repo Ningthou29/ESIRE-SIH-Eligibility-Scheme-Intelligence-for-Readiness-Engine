@@ -13,7 +13,7 @@ class OtpProvider:
     """Development OTP abstraction. Swap send() for SMS later."""
 
     def send(self, phone: str, code: str) -> None:
-        print(f"[ESIRE OTP] {phone} -> {code}")
+        print(f"[PAANGBA OTP] {phone} -> {code}")
 
 
 otp_provider = OtpProvider()

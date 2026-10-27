@@ -6,7 +6,7 @@ from typing import Any
 
 import z3
 
-logger = logging.getLogger("esire.z3")
+logger = logging.getLogger("PAANGBA.z3")
 
 
 @dataclass

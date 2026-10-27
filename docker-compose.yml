@@ -2,20 +2,20 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: esire
-      POSTGRES_PASSWORD: esire
-      POSTGRES_DB: esire
+      POSTGRES_USER: PAANGBA
+      POSTGRES_PASSWORD: PAANGBA
+      POSTGRES_DB: PAANGBA
     ports:
       - "5432:5432"
     volumes:
-      - esire_pg:/var/lib/postgresql/data
+      - PAANGBA_pg:/var/lib/postgresql/data
 
   mongo:
     image: mongo:7
     ports:
       - "27017:27017"
     volumes:
-      - esire_mongo:/data/db
+      - PAANGBA_mongo:/data/db
 
   neo4j:
     image: neo4j:5
@@ -23,11 +23,11 @@ services:
       - "7474:7474"
       - "7687:7687"
     environment:
-      NEO4J_AUTH: neo4j/esire-dev-password
+      NEO4J_AUTH: neo4j/PAANGBA-dev-password
     volumes:
-      - esire_neo4j:/data
+      - PAANGBA_neo4j:/data
 
 volumes:
-  esire_pg:
-  esire_mongo:
-  esire_neo4j:
+  PAANGBA_pg:
+  PAANGBA_mongo:
+  PAANGBA_neo4j:

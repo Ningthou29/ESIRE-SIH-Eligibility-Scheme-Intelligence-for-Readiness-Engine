@@ -10,7 +10,7 @@ import httpx
 from app.config import get_settings
 
 settings = get_settings()
-logger = logging.getLogger("esire.ollama")
+logger = logging.getLogger("PAANGBA.ollama")
 
 EXTRACT_SCHEMA = {
     "name": None,

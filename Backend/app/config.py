@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
-    app_name: str = "ESIRE"
+    app_name: str = "PAANGBA"
     environment: str = "development"
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
 
@@ -14,14 +14,14 @@ class Settings(BaseSettings):
     jwt_algorithm: str = "HS256"
     jwt_expire_minutes: int = 60 * 24 * 7
 
-    database_url: str = "sqlite:///./esire.db"
+    database_url: str = "sqlite:///./PAANGBA.db"
 
     mongo_uri: str = "mongodb://localhost:27017"
-    mongo_db: str = "esire"
+    mongo_db: str = "PAANGBA"
 
     neo4j_uri: str = "bolt://localhost:7687"
     neo4j_user: str = "neo4j"
-    neo4j_password: str = "esire-dev-password"
+    neo4j_password: str = "PAANGBA-dev-password"
 
     ollama_base_url: str = "http://127.0.0.1:11434"
     ollama_model: str = "llama3.2"
@@ -42,7 +42,7 @@ class Settings(BaseSettings):
     document_weight: float = 0.40
     display_threshold: float = 50.0
 
-    admin_api_key: str = "esire-admin-dev"
+    admin_api_key: str = "PAANGBA-admin-dev"
     upload_dir: str = "./uploads"
     allow_inmemory_fallback: bool = True
 

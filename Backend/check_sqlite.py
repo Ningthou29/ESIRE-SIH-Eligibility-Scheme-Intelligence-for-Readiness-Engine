@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("esire.db")
+conn = sqlite3.connect("PAANGBA.db")
 cursor = conn.cursor()
 
 tables = [

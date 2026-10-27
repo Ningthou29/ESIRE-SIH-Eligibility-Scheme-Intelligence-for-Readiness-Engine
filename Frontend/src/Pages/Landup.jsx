@@ -17,7 +17,7 @@ const Landup = () => {
     <div className="landing-page">
       <header className="header">
         <div className="logo">
-          <h1>ESIRE</h1>
+          <h1>PAANGBA</h1>
           <p>{t("brandTag")}</p>
         </div>
 
@@ -49,7 +49,7 @@ const Landup = () => {
 
       <main>
         <section className="hero">
-          <h1>ESIRE</h1>
+          <h1>PAANGBA</h1>
           <span>{t("governmentSchemes")}</span>
           <p>
             {t("heroBody")}
@@ -78,7 +78,7 @@ const Landup = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-brand">
-            <h2>ESIRE</h2>
+            <h2>PAANGBA</h2>
             <p>{t("heroBody")}</p>
           </div>
           <div className="footer-section">
@@ -103,7 +103,7 @@ const Landup = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2026 SIH. All Rights Reserved.</p>
+          <p>© 2026 PAANGBA. All Rights Reserved.</p>
           <p>{languageLabel(language)}</p>
         </div>
       </footer>

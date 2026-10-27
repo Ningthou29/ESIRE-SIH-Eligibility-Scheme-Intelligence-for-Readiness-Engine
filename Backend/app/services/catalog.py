@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session
 from app.db import mongo, neo4j_db
 from app.models import SchemeRecord
 
-logger = logging.getLogger("esire.catalog")
+logger = logging.getLogger("PAANGBA.catalog")
 
 SEED_PATH = Path(__file__).resolve().parent.parent / "data" / "seed_schemes.json"
 
